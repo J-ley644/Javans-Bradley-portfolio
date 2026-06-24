@@ -222,16 +222,16 @@ footer{
     color: #94a3b8;
 }
 
-/*.fade-in{
+.fade-in{
     opacity: 0;
     transform: translateY(30px);
     transition: all 1s ease;
 }
 
-/*.fade-in.show{
+.fade-in.show{
     opacity: 1;
     transform: translateY(0);
-}*/
+}
 
 @media (max-width: 768px){
     .hero-text h1{

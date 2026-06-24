@@ -46,7 +46,8 @@ themeToggle.addEventListener("click", () => {
     }
 });
 
-const text = "Software Developer | Web Developer | Problem Solver";
+const text =
+"Frontend Developer | React Developer | Problem Solver";
 
 let i = 0;
 
