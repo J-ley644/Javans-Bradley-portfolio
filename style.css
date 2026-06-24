@@ -351,3 +351,18 @@ body.dark-mode footer{
     color: rgb(151, 21, 21);
     background: #e0389a;
 }
+
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.nav-links a:hover{
+    color:#93c5fd;
+}
