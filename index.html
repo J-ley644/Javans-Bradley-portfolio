@@ -1,118 +1,87 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javans Bradley | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Javans Bradley | Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
+<!-- NAVBAR -->
 <nav class="navbar">
+    <div class="logo">J.LEY</div>
 
-    <h1>J.ley</h1>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 
-    <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
-
+    <button id="theme-toggle" class="theme-btn">🌙</button>
 </nav>
 
-<header>
-    <div class="hero">
+<!-- HERO -->
+<header class="hero">
 
-        <div class="hero-text fade-in">
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <span class="tag">AVAILABLE FOR FREELANCE WORK</span>
+
             <h1>
-    Hi, I'm
-    <span class="gradient-text">
-        Javans Bradley
-    </span>
-</h1>
-            <h2 id="typing-text"></h2>
+                Building Modern Digital
+                <span class="gradient">Experiences</span>
+            </h1>
 
-            
+            <p>
+                I'm Javans Bradley, a developer focused on creating
+                high-performance websites, SaaS platforms,
+                automation systems and scalable digital solutions.
+            </p>
 
-            <button id="theme-toggle" class="theme-btn">
-    🌙
-</button>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
 
-<p>
-Frontend Developer specializing in HTML, CSS, JavaScript and React.
-
-I build responsive websites, web applications and digital solutions that focus on performance, user experience and real-world impact.
-</p>
-
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#about" class="btn">Learn More</a>
-            <a href="cv/Javans_Bradley_CV.pdf" download class="btn">Download CV</a>
         </div>
 
-        <div class="hero-image fade-in">
+        <div class="hero-image">
             <img src="images/me.png" alt="Javans Bradley">
         </div>
 
     </div>
+
 </header>
 
+<!-- ABOUT -->
 <section id="about">
 
-    <h2 class="section-title fade-in">About Me</h2>
-
-    <div class="about-container">
-
-        <div class="card fade-in">
-
-            <h3>Professional Background</h3>
-
-            <p>
-                I am a dedicated and motivated web developer with a strong
-                foundation in software development and a passion for
-                creating innovative digital solutions. My experience
-                includes front-end development, responsive web design,
-                and database management.
-
-                I am committed to delivering high-quality work and
-                continuously learning new technologies to provide the
-                best possible solutions for clients and users.
-            </p>
-
-        </div>
-
+    <div class="section-header">
+        <span>ABOUT ME</span>
+        <h2>Developer. Builder. Problem Solver.</h2>
     </div>
 
-</section>
+    <div class="about-grid">
 
-<section>
-
-    <h2 class="section-title fade-in">Services</h2>
-
-    <div class="services">
-
-        <div class="service-box fade-in">
-            <h3>Web Development</h3>
+        <div class="glass-card">
+            <h3>Who I Am</h3>
             <p>
-                Creating responsive and user-friendly websites and
-                web applications.
+                Passionate developer creating modern websites,
+                SaaS applications, automation tools and digital products.
+                I focus on clean design, performance and user experience.
             </p>
         </div>
 
-        <div class="service-box fade-in">
-            <h3>Software Engineering</h3>
+        <div class="glass-card">
+            <h3>Experience</h3>
             <p>
-                Designing and implementing robust software solutions.
-            </p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>Research</h3>
-            <p>
-                Conducting and participating in impactful research
-                projects.
+                Experience building web systems,
+                attendance platforms, WhatsApp automation solutions
+                and custom business tools.
             </p>
         </div>
 
@@ -120,191 +89,149 @@ I build responsive websites, web applications and digital solutions that focus o
 
 </section>
 
-<section>
-
-    <h2 class="section-title fade-in">Experience</h2>
-
-    <div class="timeline">
-
-        <div class="timeline-item fade-in">
-            <h3>Web Developer</h3>
-            <p>
-                Developing modern, responsive, and efficient web
-                applications using current web technologies.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
+<!-- SKILLS -->
 <section id="skills">
 
-    <h2 class="section-title fade-in">Technical Skills</h2>
+    <div class="section-header">
+        <span>SKILLS</span>
+        <h2>Technologies I Work With</h2>
+    </div>
 
-    <div class="services">
+    <div class="skills-grid">
 
-        <div class="service-box fade-in">
-            <h3>Frontend Development</h3>
-            <p>HTML5, CSS3, JavaScript, React, Responsive Design</p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>Backend Development</h3>
-            <p>Node.js, APIs, Authentication Systems</p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>Database Management</h3>
-            <p>MySQL, MongoDB, Data Design</p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>Tools</h3>
-            <p>Git, GitHub, VS Code, Termux</p>
-        </div>
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">MySQL</div>
 
     </div>
 
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
 
-    <h2 class="section-title fade-in">Featured Projects</h2>
-
-    <section id="projects">
-
-    <h2 class="section-title fade-in">Featured Projects</h2>
+    <div class="section-header">
+        <span>PORTFOLIO</span>
+        <h2>Featured Projects</h2>
+    </div>
 
     <div class="projects-grid">
 
-        <div class="project-card fade-in">
-            <img src="images/projects/project1.png" alt="JLEY SMART TRACKER">
-            <h3>JLEY SMART TRACKER</h3>
-            <p>Student attendance and tracking system with reporting and management features.</p>
+        <div class="project-card">
+
+            <img src="images/projects/project1.png">
+
+            <div class="project-content">
+                <h3>JLEY SMART TRACKER</h3>
+
+                <p>
+                    Student attendance and school management platform.
+                </p>
+
+                <span class="project-tag">Web App</span>
+            </div>
+
         </div>
 
-        <div class="project-card fade-in">
-            <img src="images/projects/project2.png" alt="JLEY-XMD">
-            <h3>JLEY-XMD</h3>
-            <p>WhatsApp bot SaaS platform with automation and deployment system.</p>
+        <div class="project-card">
+
+            <img src="images/projects/project2.png">
+
+            <div class="project-content">
+                <h3>JLEY-XMD</h3>
+
+                <p>
+                    WhatsApp automation SaaS with deployment engine.
+                </p>
+
+                <span class="project-tag">SaaS</span>
+            </div>
+
         </div>
 
-        <div class="project-card fade-in">
-            <img src="images/projects/project.jpg" alt="Portfolio">
-            <img src="project0.jpg" alt="Portfolio">
-            <h3>Portfolio Website</h3>
-            <p>Modern responsive portfolio showcasing skills and experience.</p>
+        <div class="project-card">
+
+            <img src="images/projects/project.jpg">
+
+            <div class="project-content">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Modern responsive developer portfolio.
+                </p>
+
+                <span class="project-tag">Frontend</span>
+            </div>
+
         </div>
 
     </div>
 
 </section>
 
-</section>
+<!-- STATS -->
+<section class="stats">
 
-<section id="stats">
+    <div class="stat-card">
+        <h2>5+</h2>
+        <p>Projects Built</p>
+    </div>
 
-    <h2 class="section-title fade-in">Achievements</h2>
+    <div class="stat-card">
+        <h2>100%</h2>
+        <p>Commitment</p>
+    </div>
 
-    <div class="services">
-
-        <div class="service-box fade-in">
-            <h3>5+</h3>
-            <p>Projects Completed</p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>100%</h3>
-            <p>Commitment to Quality</p>
-        </div>
-
-        <div class="service-box fade-in">
-            <h3>24/7</h3>
-            <p>Continuous Learning</p>
-        </div>
-
+    <div class="stat-card">
+        <h2>24/7</h2>
+        <p>Learning</p>
     </div>
 
 </section>
 
-<section>
+<!-- CONTACT -->
+<section id="contact">
 
-    <h2 class="section-title fade-in">
-        Why Work With Me
-    </h2>
-
-    <div class="card fade-in">
+    <div class="contact-box">
+        
+        <h2>Let's Build Something Great</h2>
 
         <p>
-            I focus on creating clean, efficient, and user-friendly
-            digital solutions. My goal is to deliver projects that are
-            reliable, scalable, and tailored to client needs.
+            Available for freelance work,
+            collaborations and software development projects.
         </p>
-
-    </div>
-
-</section>
-
-<section>
-
-    <div class="contact fade-in" id="contact">
-
-        <h2>Get In Touch</h2>
 
         <div class="social-links">
 
-    <a href="https://github.com/J-ley644" target="_blank">
-        GitHub
-    </a>
-
-    <a href="https://linkedin.com/in/Javans Bradley" target="_blank">
-        LinkedIn
-    </a>
-
     <a href="mailto:smarttechjley@gmail.com" target="_blank">
-        Email
+        📧 Email
+    </a>
+
+    <a href="https://github.com/J-ley644" target="_blank">
+        💻 GitHub
+    </a>
+
+    <a href="https://wa.me/254100459548" target="_blank">
+        💬 WhatsApp
     </a>
 
 </div>
 
-        <p>Email: smarttechjley@gmail.com</p>
-        <p>Phone: +254 702 946 278</p>
-
-        <p>
-            Available for freelance work, consultations,
-            collaborations, and software development projects.
-        </p>
-
-        <a href="https://wa.me/254100459548" class="btn" target="_blank">
-            Chat on WhatsApp
-        </a>
-
-    </div>
 
 </section>
 
-
-</a>
+<footer>
+    <p>© 2026 Javans Bradley. All Rights Reserved.</p>
+</footer>
 
 <button id="topBtn">↑</button>
 
-<footer>
-
-    <h3>Javans Bradley</h3>
-
-    <p>
-Frontend Developer • React Developer • Problem Solver
-</p>
-
-    <p>
-        &copy; 2026 All Rights Reserved.
-    </p>
-
-</footer>
-
 <script src="script.js"></script>
-```
 
 </body>
 </html>
