@@ -295,7 +295,7 @@ body{
 
 .hero{
     min-height:100vh;
-    padding:150px 8% 80px;
+    padding:140px 8% 80px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -303,8 +303,8 @@ body{
 
 .hero-content{
     display:flex;
-    justify-content:space-between;
     align-items:center;
+    justify-content:space-between;
     gap:40px;
     max-width:1200px;
     width:100%;
@@ -313,21 +313,22 @@ body{
 }
 
 .hero-text{
-    flex:1 1 500px;
+    flex:1 1 480px;
 }
 
 .hero-image{
-    flex:1 1 350px;
+    flex:1 1 320px;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
 .hero-image img{
-    width:380px;
-    height:380px;
+    width:340px;
+    height:340px;
     border-radius:50%;
     object-fit:cover;
+    box-shadow:0 25px 60px rgba(0,0,0,0.4);
 }
 
 .availability{
@@ -1232,7 +1233,7 @@ body.dark .contact-box {
     margin-top: 40px;
 }
 
-@media(max-width:992px){
+@media(max-width:768px){
     .hero-content{
         flex-direction:column;
         text-align:center;
