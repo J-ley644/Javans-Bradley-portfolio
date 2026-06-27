@@ -302,14 +302,12 @@ body{
 }
 
 .hero-content{
-    display:flex;
+    display:grid;
+    grid-template-columns:1fr 1fr;
     align-items:center;
-    justify-content:space-between;
-    gap:40px;
+    gap:60px;
     max-width:1200px;
     width:100%;
-    margin:auto;
-    flex-wrap:wrap;
 }
 
 .hero-text{
@@ -326,9 +324,9 @@ body{
 .hero-image img{
     width:340px;
     height:340px;
-    border-radius:50%;
+    aspect-ratio:1 / 1;
     object-fit:cover;
-    box-shadow:0 25px 60px rgba(0,0,0,0.4);
+    display:block;
 }
 
 .availability{
@@ -1235,12 +1233,21 @@ body.dark .contact-box {
 
 @media(max-width:768px){
     .hero-content{
-        flex-direction:column;
+        grid-template-columns:1fr;
         text-align:center;
+    }
+
+    .hero-image{
+        order:-1;
     }
 
     .hero-image img{
         width:260px;
         height:260px;
     }
+}
+
+img{
+    loading: auto;
+    will-change: transform;
 }
