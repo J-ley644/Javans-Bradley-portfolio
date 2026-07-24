@@ -17,15 +17,50 @@
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar">
 
-    <div class="logo">J.LEY</div>
+    <div class="logo">
+
+        <a href="#hero">
+
+            <span class="logo-j">J</span>avans
+            <span class="logo-b">Bradley</span>
+
+        </a>
+
+    </div>
 
     <ul class="nav-links">
+
+        <li><a href="#hero" class="active">Home</a></li>
+
         <li><a href="#about">About</a></li>
+
+        <li><a href="#services">Services</a></li>
+
         <li><a href="#skills">Skills</a></li>
+
         <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
         <li><a href="#contact">Contact</a></li>
+
     </ul>
-    <button id="theme-toggle" class="theme-btn">🌙</button>
+
+    <div class="nav-actions">
+
+        <button id="theme-toggle" class="theme-btn">
+
+            🌙
+
+        </button>
+
+        <button class="menu-toggle">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
 
 </nav>
 
@@ -33,42 +68,162 @@
 <!-- ================= HERO SECTION ================= -->
 <header class="hero">
 
+    <div class="hero-bg">
+        <span class="blob blob1"></span>
+        <span class="blob blob2"></span>
+        <span class="grid-overlay"></span>
+    </div>
+
     <div class="hero-content">
 
-        <!-- TEXT SIDE -->
+        <!-- LEFT SIDE -->
         <div class="hero-text fade-in">
 
-            <span class="tag">AVAILABLE FOR FREELANCE WORK</span>
+            <div class="hero-badge">
+
+                <span class="pulse"></span>
+
+                Available For Freelance
+
+            </div>
 
             <h1>
-                Building Modern
-                <span class="gradient">Digital Experiences</span>
+
+                Hi, I'm
+
+                <span class="gradient">
+
+                    Javans Bradley
+
+                </span>
+
             </h1>
 
-            <p>
-                I'm Javans Bradley, a Full Stack Developer focused on
-                building high-performance websites, SaaS platforms,
-                automation tools, and scalable digital systems.
+            <h2 class="hero-role">
+
+                Full Stack Developer
+
+            </h2>
+
+            <p class="hero-description">
+
+                I design and develop fast, scalable websites,
+                SaaS platforms, backend systems and automation
+                tools with a focus on performance, clean code,
+                and exceptional user experiences.
+
             </p>
 
             <div class="hero-buttons">
 
                 <a href="#projects" class="btn primary">
+
+                    <i class="fa-solid fa-code"></i>
+
                     View Projects
+
                 </a>
 
                 <a href="#contact" class="btn secondary">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
                     Hire Me
+
                 </a>
+
+            </div>
+
+            <div class="hero-info">
+
+                <div>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Kenya
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    Full Stack
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-rocket"></i>
+
+                    SaaS Builder
+
+                </div>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <h3>5+</h3>
+
+                    <span>Projects</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3>100%</h3>
+
+                    <span>Dedication</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <h3>24/7</h3>
+
+                    <span>Learning</span>
+
+                </div>
 
             </div>
 
         </div>
 
-        <!-- IMAGE SIDE -->
+        <!-- RIGHT SIDE -->
+
         <div class="hero-image fade-in">
 
-            <img src="images/me.png" alt="Javans Bradley">
+            <div class="image-glow"></div>
+
+            <img src="images/me.png"
+                 alt="Javans Bradley">
+
+            <div class="tech-card tech1">
+
+                ⚛ React
+
+            </div>
+
+            <div class="tech-card tech2">
+
+                🟢 Node.js
+
+            </div>
+
+            <div class="tech-card tech3">
+
+                ⚡ JavaScript
+
+            </div>
+
+            <div class="tech-card tech4">
+
+                🗄 MongoDB
+
+            </div>
 
         </div>
 
@@ -289,34 +444,94 @@
 
 
         <!-- PROJECT 2 -->
-        <div class="project-card fade-in">
+        <div class="project-card fade-in featured-project">
 
-            <img src="images/projects/project2.png" alt="Project 2">
+    <div class="browser-frame">
 
-            <div class="project-content">
+        <div class="browser-top">
 
-                <h3>JLEY-XMD</h3>
-
-                <p>
-                    WhatsApp automation SaaS system with bot deployment and session management.
-                </p>
-
-                <div class="project-stack">
-                    <span>Node.js</span>
-                    <span>API</span>
-                    <span>Automation</span>
-                </div>
-
-                <div class="project-buttons">
-
-                    <a href="#" class="project-btn live">Live Demo</a>
-                    <a href="#" class="project-btn github">GitHub</a>
-
-                </div>
-
-            </div>
+            <span></span>
+            <span></span>
+            <span></span>
 
         </div>
+
+        <img src="images/projects/jley-dashboard.png"
+             alt="JLEY-XMD Dashboard">
+
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-status">
+
+            <span class="status live">
+
+                ● Active Development
+
+            </span>
+
+        </div>
+
+        <h3>
+
+            JLEY-XMD
+
+        </h3>
+
+        <p>
+
+            A professional multi-user WhatsApp automation platform
+            supporting cloud deployments, pairing codes,
+            dashboards, plugin management and automated bot hosting.
+
+        </p>
+
+        <ul class="project-list">
+
+            <li>Multi-user Deployment</li>
+
+            <li>Cloud Hosting</li>
+
+            <li>Dashboard</li>
+
+            <li>Plugin System</li>
+
+            <li>Pairing API</li>
+
+        </ul>
+
+        <div class="tech-stack">
+
+            <span>Node.js</span>
+
+            <span>Express</span>
+
+            <span>MongoDB</span>
+
+            <span>REST API</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="#">
+
+                Live Demo
+
+            </a>
+
+            <a href="#">
+
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 
 
         <!-- PROJECT 3 -->
